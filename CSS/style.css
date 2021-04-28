@@ -1,0 +1,161 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #f1f1f1;
+  color: #000000;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 100%
+}
+
+/* Cabeçalho */
+
+header {
+  padding: 25px 0px 0px 15px;
+  background-color: #1A2846;
+  border-bottom-style: solid; /* borda apenas no fundo */
+  border-color: #2A348A;
+  border-width: 5px; /* largura */
+  box-sizing: border-box;
+}
+
+
+img.logoAcess{
+  max-width: 100%;
+  height: auto;
+}
+
+.goContent {
+  padding: 3px 0px 3px 15px;
+  font-size: 1.5em;
+  font-family: verdana, arial, helvetica, sans-serif;
+  background-color: #1A2846;
+  box-sizing: border-box;
+}
+
+/* Menu de navegação horizontal no topo */
+
+ul.menutopo {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #2A348A;
+}
+
+li.menutopo {
+  float: left;
+  border-right: 1px solid #bbb;
+}
+
+li.menutopo a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+li.menutopo a:hover  {
+
+  background-color: #1A2846;
+}
+
+li.menutopo a:focus {
+
+  background-color: #1A2846;
+  border: 5px solid white;
+}
+
+
+/* Menu de navegação secundário na posição vertical lateral esquerda */
+
+ul.menulateral {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #edf1f8;
+  border: 1px solid #555;
+}
+
+li.menulateral a {
+  display: block;
+  color: #000;
+  padding: 2px 16px;
+  text-decoration: none;
+}
+
+li.menulateral a:hover {
+  background-color: #1A2846;
+}
+
+li.menulateral a:focus {
+
+  background-color: #1A2846;
+}
+
+li.menulateral :last-child {
+  border-bottom: none;
+}
+
+li.menulateral a.active {
+  background-color: #2A348A;
+  color: white;
+}
+
+li.menulateral a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+li.menulateral a:focus:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+
+/* MAIN SECTION */
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+
+/* para telemóveis: */
+
+[class*="col-"] {
+  width: 100%;
+}
+
+/* para computador desktop */
+@media only screen and (min-width: 768px) {
+
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+
+/* acrescenta a indicação de (PDF) em ligações para documentos neste formato */
+a[href$=".pdf"]:after {
+  content:" (PDF)";
+}
