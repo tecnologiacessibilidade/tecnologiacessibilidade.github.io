@@ -20,6 +20,60 @@ header {
   box-sizing: border-box;
 }
 
+H1 {
+    font-family: arial, helvetica, sans-serif;
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+H2 {
+    font-family: arial, helvetica, sans-serif;
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+H3 {
+    font-family: arial, helvetica, sans-serif;
+    font-size: 1.20em;
+    margin-bottom: 1em;
+}
+
+p {
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 1em;
+}
+
+.textcontrols button {
+
+    background-color: #555555;
+    color: white;
+    border: 1px solid #555555;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9em;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+
+#diminui-texto:hover,
+#tamanho-normal:hover,
+#aumenta-texto:hover,
+#diminui-texto:focus,
+#tamanho-normal:focus,
+#aumenta-texto:focus {
+
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+}
+
+/* Style for "general" links */
+#content a:hover,
+#content a:focus {
+    color: black;
+    background-color: yellow;
+}
 
 img.logoAcess{
   max-width: 100%;
@@ -28,10 +82,14 @@ img.logoAcess{
 
 .goContent {
   padding: 3px 0px 3px 15px;
-  font-size: 1.5em;
+  font-size: 1.3em;
   font-family: verdana, arial, helvetica, sans-serif;
   background-color: #1A2846;
   box-sizing: border-box;
+}
+
+.goContent mark:hover {
+    color: red;
 }
 
 /* Menu de navegação horizontal no topo */
@@ -115,6 +173,27 @@ li.menulateral a:focus:not(.active) {
   color: white;
 }
 
+.go-top {
+
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: 30px;
+    text-decoration: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    background-color: #18537a;
+
+}
+
+.go-top:hover,
+.go-top:focus {
+
+    color: blue;
+    background-color: gold;
+}
+
 
 /* MAIN SECTION */
 
@@ -159,3 +238,24 @@ section:after {
 a[href$=".pdf"]:after {
   content:" (PDF)";
 }
+
+footer {color: #ffffff;
+    width: 100%;
+    padding: 5px 0px 5px 15px;
+    background-color: #3B3B3B;
+    box-sizing: border-box;
+}
+
+span.morada {
+    display: inline-block;
+    width: 85%;
+    padding: 0px;
+    font-size:85%;
+}
+
+
+span.simbolo {
+    display: inline-block;
+    padding: 0px;
+}
+

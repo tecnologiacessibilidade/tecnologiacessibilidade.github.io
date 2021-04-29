@@ -8,7 +8,7 @@
 	<meta name="keywords" content="acessibilidade, usabilidade, deficientes, cegos, amblíopes, surdos, necessidades especiais, ajudas técnicas, produtos de apoio, tecnologias de apoio, reabilitação, legendagem, w3c, wai, en 301 549">
 	<meta name="description" content="acessibilidade.net :: Acessibilidade para Todos">
 
-	<link rel="icon" href="Imagens/accesslogofooter.gif" type="image/x-icon">
+	<link rel="icon" href="Images/accesslogofooter.gif" type="image/x-icon">
 	<link rel="stylesheet" href="CSS/style.css" type="text/css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -30,12 +30,12 @@
 </head>
 <body>
 
-    <div class="goContent"><a href="#conteudo_principal"><mark>Saltar para o conteúdo</mark></a></div>
+    <div class="goContent"><a href="#conteudo_principal"><mark title="Saltar para o conteúdo principal">Saltar para o conteúdo</mark></a></div>
 
 
     <!-- Cabeçalho com o logotipo -->
     <header>
-        <a href="index.html"><img class="logoAcess" src="Imagens/icon_logo.png" alt="Ir para Página Inicial"></a>
+        <a href="index.html"><img class="logoAcess" src="Images/icon_logo.png" alt="Ir para Página Inicial"></a>
     </header>
 
     <nav>
@@ -48,16 +48,18 @@
         </ul>
     </nav>
 
-    <p>Click the buttons to see it in action</p>
+    <br>
+
+    <p>Clique nos botões caso deseje <b>alterar o tamanho do texto:</b></p>
     <div class="textcontrols">
         <button role="button" id="diminui-texto">
-            <span>smaller</span>
+            <span>Pequeno</span>
         </button>
         <button role="button" id="tamanho-normal">
-            <span>normal</span>
+            <span>Normal</span>
         </button>
         <button role="button" id="aumenta-texto">
-            <span>bigger</span>
+            <span>Maior</span>
         </button>
     </div>
 
@@ -136,8 +138,26 @@
             </article>
     </section>
     <br>
+
+    <!-- Não precisa de title, o link é intuitivo -->
+    <a href="#top" class="go-top">VOLTAR AO TOPO DA PÁGINA</a>
+
+    <br><br>
+
         </main>
 
+        <footer>
+            <span class="morada">
+                CERTIC - Centro de Engenharia de Reabilitação e Acessibilidade<br>
+                UTAD/ECT - Pólo 1, Apartado 1013 - 5001-801 Vila Real - Portugal<br>
+                Contacto: Francisco Godinho
+            </span>
+            <span class="simbolo">
+                <a href="http://www.acessibilidade.net/web/sawdesc.php"><img src="Images/accesslogofooter.gif" width="43" height="43" alt="Simbolo de Acessibilidade na Web"></a>
+            </span>
+
+        </footer>
+        <!-- end footer -->
         <script src="JS/font_size.js"></script>
 </body>
 </html>
