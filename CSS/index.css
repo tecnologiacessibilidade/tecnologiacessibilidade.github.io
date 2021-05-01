@@ -43,7 +43,7 @@ p {
     font-size: 1em;
 }
 
-.textcontrols button {
+.textControls button {
 
     background-color: #555555;
     color: white;
@@ -74,6 +74,19 @@ p {
     color: black;
     background-color: yellow;
 }
+
+/* JS function change theme  */
+.styleDark a {
+
+    color: DodgerBlue;
+}
+
+.styleLight a {
+
+    color: blue;
+}
+
+/* End change theme  */
 
 img.logoAcess{
   max-width: 100%;
@@ -107,13 +120,24 @@ li.menutopo {
   border-right: 1px solid #bbb;
 }
 
+li.menutopo:last-child {
+  float: right;
+  border-right: none;
+  border-left: 1px solid #bbb;
+}
+
+/* li.menutopo:last-child { */
+/*   float: right; */
+/*   border-right: 1px solid #bbb; */
+/* } */
+
 li.menutopo a {
   display: block;
   color: white;
   text-align: center;
   padding: 16px;
   text-decoration: none;
-  font-size: 1.2em;
+  font-size: 1.1em;
 }
 
 li.menutopo a:hover  {
@@ -127,6 +151,11 @@ li.menutopo a:focus {
   border: 5px solid white;
 }
 
+.nav-active {
+
+    background-color: #1A2846;
+    color: white;
+}
 
 /* Menu de navegação secundário na posição vertical lateral esquerda */
 

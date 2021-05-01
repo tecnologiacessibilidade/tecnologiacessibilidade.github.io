@@ -9,12 +9,12 @@
 	<meta name="description" content="acessibilidade.net :: Acessibilidade para Todos">
 
 	<link rel="icon" href="Images/accesslogofooter.gif" type="image/x-icon">
-	<link rel="stylesheet" href="CSS/style.css" type="text/css">
+	<link rel="stylesheet" href="CSS/index.css" type="text/css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
-    <script src=""https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
 
 
     <!-- <style> -->
@@ -28,7 +28,7 @@
     <!-- </style> -->
 
 </head>
-<body>
+<body id="body">
 
     <div class="goContent"><a href="#conteudo_principal"><mark title="Saltar para o conteúdo principal">Saltar para o conteúdo</mark></a></div>
 
@@ -40,18 +40,19 @@
 
     <nav>
         <ul class="menutopo">
-            <li class="menutopo"><a href="index.html" accesskey="i">Início</a></li>
+            <li class="menutopo nav-active"><a href="index.html" accesskey="i">Início</a></li>
             <li class="menutopo"><a href="/web/" accesskey="e">Ergonomia</a></li>
-            <li class="menutopo"><a href="/web/" accesskey="h">Produtos de Hardware</a></li>
+            <li class="menutopo"><a href="Hardware/hardware.html" accesskey="h">Produtos de Hardware</a></li>
             <li class="menutopo"><a href="/web/" accesskey="s">Produtos de Software</a></li>
+            <li class="menutopo"><a id="tema" href="#" onclick="changeColor('#002026');" accesskey="m">MODO ESCURO</a></li>
     <!-- Teste -->
         </ul>
     </nav>
 
     <br>
 
-    <p>Clique nos botões caso deseje <b>alterar o tamanho do texto:</b></p>
-    <div class="textcontrols">
+    <p class="textClass">Clique nos botões caso deseje <b>alterar o tamanho do texto:</b></p>
+    <div class="textControls">
         <button role="button" id="diminui-texto">
             <span>Pequeno</span>
         </button>
@@ -66,7 +67,7 @@
     <section id="content">
 
         <div  class="col-3 menu">  <!-- largura de 25% do ecrã -->
-            <p>Graças à <a href="http://www.acessibilidade.net/certic/historia.php">petição pela Acessibilidade da Internet Portuguesa</a>, iniciada em 3 de Dezembro de 1998 por Francisco Godinho e Ricardo Silva, foi possível criar regras para a Internet que garantissem acessibilidade independentemente da situação concreta em que se encontre cada utilizador.
+            <p class="textClass">Graças à <a href="http://www.acessibilidade.net/certic/historia.php">petição pela Acessibilidade da Internet Portuguesa</a>, iniciada em 3 de Dezembro de 1998 por Francisco Godinho e Ricardo Silva, foi possível criar regras para a Internet que garantissem acessibilidade independentemente da situação concreta em que se encontre cada utilizador.
             </p>
 
         </div>
@@ -77,8 +78,8 @@
 
                 <br>
                 Início
-                <H1>Sobre este Sítio Web</H1>
-                <p>Este website, criado a pensar na acessibilidade dos seus utilizadores, tem como objetivo a divulgação de <a href="ergo.html">conselhos de Ergonomia</a>, <a href="hardware.html">Produtos de Hardware</a> e <a href="ergo.html">Produtos de Software</a> que contribuem para melhorar a acessibilidade no computador de utilizadores com algum tipo de limitação.</p>
+                <H1 class="headingsClass">Sobre este Sítio Web</H1>
+                <p class="textClass">Este website, criado a pensar na acessibilidade dos seus utilizadores, tem como objetivo a divulgação de <a href="ergo.html">conselhos de Ergonomia</a>, <a href="hardware.html">Produtos de Hardware</a> e <a href="ergo.html">Produtos de Software</a> que contribuem para melhorar a acessibilidade no computador de utilizadores com algum tipo de limitação.</p>
 
                 <br>
                 <br>
@@ -140,7 +141,7 @@
     <br>
 
     <!-- Não precisa de title, o link é intuitivo -->
-    <a href="#top" class="go-top">VOLTAR AO TOPO DA PÁGINA</a>
+    <a href="#body" class="go-top">VOLTAR AO TOPO DA PÁGINA</a>
 
     <br><br>
 
@@ -157,7 +158,7 @@
             </span>
 
         </footer>
+        <script src="JS/general.js"></script>
         <!-- end footer -->
-        <script src="JS/font_size.js"></script>
 </body>
 </html>
