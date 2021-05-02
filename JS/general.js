@@ -34,7 +34,6 @@ function changeColor(bgColor) {
         document.getElementById("tema").innerHTML = "MODO CLARO";
 
 		document.body.style.background = bgColor;
-        // document.querySelector('#foo').classList.add('myClass');
         document.getElementById('content').setAttribute("class", "styleDark")
 		for (var i = 0; i < textClassElements.length; i++) {
 
