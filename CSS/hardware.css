@@ -198,9 +198,19 @@ li.menulateral a:focus:not(.active) {
   color: white;
 }
 
+.list-prod-func li:not(:last-child) {
+
+    margin: 10px 0px;
+}
+
 .high{
 
     font-weight: bold;
+}
+
+.lineH {
+
+    line-height: 1.5em;
 }
 
 .go-top {

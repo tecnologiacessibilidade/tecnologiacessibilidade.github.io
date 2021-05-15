@@ -202,6 +202,11 @@ li.menulateral a:focus:not(.active) {
   color: white;
 }
 
+.lineH {
+
+    line-height: 1.5em;
+}
+
 .go-top {
 
     display: block;
