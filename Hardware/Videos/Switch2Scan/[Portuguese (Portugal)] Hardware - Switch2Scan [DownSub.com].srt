@@ -1,0 +1,28 @@
+1
+00:00:01,840 --> 00:00:06,020
+Usando Pretorian num Ipad
+
+2
+00:00:14,486 --> 00:00:17,876
+Opção Mode 4 para 4 interruptores
+
+3
+00:00:21,338 --> 00:00:25,768
+Pressione "Mode" e "4" para aparecer
+
+4
+00:00:36,550 --> 00:00:40,270
+Pressionando o interruptor 1, move para a frente
+
+5
+00:00:40,270 --> 00:00:43,224
+Pressionando o interruptor 2, move para trás
+
+6
+00:00:53,730 --> 00:00:56,240
+Pressione o interruptor 3 para selecionar
+
+7
+00:01:02,421 --> 00:01:05,311
+Pressione o interruptor 4 para ir para a página principal
+

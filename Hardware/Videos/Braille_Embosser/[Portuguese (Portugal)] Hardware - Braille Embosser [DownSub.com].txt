@@ -1,0 +1,14 @@
+"Iremos demonstrar os tradutores de Braille
+
+e o Romeu Brailler Embosser
+
+Agora aqui temos o documento escrito
+
+Control+T
+
+E agora temos em braille
+
+Control+E
+
+E imprimimos a página selecionada
+
