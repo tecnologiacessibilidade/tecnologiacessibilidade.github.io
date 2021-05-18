@@ -1,0 +1,80 @@
+Um exemplo do uso do Dasher
+
+É deste modo que se escreve com o dasher
+
+é preciso alguma prática, mas torna-se bem mais rápido
+
+Clique com o rato para começar a mexer
+
+Depois aponte para a primeira letra que deseja
+
+e continue a apontar para as letras que quer
+
+as letras estão organizadas alfabeticamente
+
+de cima para baixo
+
+senão conseguir encontrar a letra que deseja
+
+aponte para o local onde estaria, na interface
+
+fazendo com que apareça
+
+agora vamos cometer um erro
+
+ao apontar para o "d" e depois reparar
+
+que queremos o D maiúsculo, então retrocedemos
+
+o d minúsculo é removido
+
+e vamos até à zona das letras maiúsculas, a zona amarela
+
+agora encontramos o D maiúsculo
+
+reparem que agora é maiúsculo
+
+depois, queremos o ponto de exclamação
+
+na zona verde
+
+quando estamos a escrever a próxima frase
+
+eu vou dizer a próxima palavra que procuro
+
+antes de a escrever
+
+"coisa"
+
+"pratica"
+
+"algum"
+
+"treino"
+
+"mas"
+
+"consegue"
+
+"ser"
+
+"muito"
+
+"rápido"
+
+"com"
+
+"tempo"
+
+e terminámos
+
+e como podem ver, tudo o que escrevemos
+
+aparece no topo do ecrã
+
+agora pode ser copiado para outro software
+
+ou ser gravado como um ficheiro
+
+Obrigado por assistirem!
+

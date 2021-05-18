@@ -1,0 +1,60 @@
+Este vídeo mostra como o Read&Write pode ser utilizado
+
+para ler por voz
+
+Para utilizar Text to Speech, coloque o ponteiro do rato
+
+onde quer começar a ler
+
+e clique no botão do play
+
+"A maior parte da energia que utilizamos hoje em dia"
+
+"vem de combustíveis fósseis"
+
+"No entanto, estes combustíveis"
+
+Ao ler, há a marcação do texto com marcador
+
+o que ajuda na compreensão do texto
+
+Tu consegues mudar a voz
+
+ao ir ao menu de opções
+
+e clicar na zona das vozes
+
+se tiver a ler noutra lingua, pode até selecionar
+
+das vozes internacionais presentes
+
+Também pode ajustar a velocidade da leitura
+
+e colocar uma leitura corrida ou não
+
+isto serve, para quando só se quer ler o que foi selecionado
+
+ou ler o documento todo
+
+Para utilizar na WEB, utilize o hover speech
+
+simplesmente ao colocar o ponteiro sobre o texto
+
+"A geografia única do Ártico"
+
+"leva a padrões meteorológicos únicos"
+
+"que reaparecem na região ano após ano"
+
+"O mapa da pressão dos níveis do oceano a 31 de outubro"
+
+Também pode destacar alguma seleção e clicar no botão do play
+
+Tenha em mente, que se encontrar alguma área inacessível
+
+terá de utilizar o Screenshot Reader
+
+Também pode usar TextotoSpeech in Google Swides, Google Forms e muitos mais
+
+Para aprender mais, visite texthelp.com
+
