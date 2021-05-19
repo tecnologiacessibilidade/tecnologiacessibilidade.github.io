@@ -91,6 +91,7 @@ p {
 img.logoAcess{
   max-width: 100%;
   height: auto;
+  content: url("../Images/icon_logo.png");
 }
 
 .goContent {
