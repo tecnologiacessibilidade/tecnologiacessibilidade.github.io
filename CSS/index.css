@@ -93,6 +93,19 @@ img.logoAcess{
   height: auto;
 }
 
+.prod-center {
+  text-align: center;
+}
+
+.raw img {
+
+  width: 350px;
+  height: 286px;
+  border-radius: 10px;
+  box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.8);
+}
+
+
 .goContent {
   padding: 3px 0px 3px 15px;
   font-size: 1.3em;
@@ -137,7 +150,7 @@ li.menutopo a {
   text-align: center;
   padding: 16px;
   text-decoration: none;
-  font-size: 1.1em;
+  font-size: 1em;
 }
 
 li.menutopo a:hover  {
@@ -202,6 +215,11 @@ li.menulateral a:focus:not(.active) {
   color: white;
 }
 
+.list-prod-func li:not(:last-child) {
+
+    margin: 15px 0px;
+}
+
 .lineH {
 
     line-height: 1.5em;
@@ -228,6 +246,29 @@ li.menulateral a:focus:not(.active) {
     background-color: gold;
 }
 
+#acessDigital{
+    content: url("../Images/acessDigital.png");
+}
+
+#ergo_01{
+    content: url("../Images/Ergo/01_ergo.png");
+}
+
+#ergo_02{
+    content: url("../Images/Ergo/02_ergo.jpeg");
+}
+
+#ergo_03{
+    content: url("../Images/Ergo/03_ergo.jpeg");
+}
+
+#ergo_04{
+    content: url("../Images/Ergo/04_ergo.jpeg");
+}
+
+#ergo_05 {
+    content: url("../Images/Ergo/05_ergo.jpeg");
+}
 
 /* MAIN SECTION */
 
@@ -238,6 +279,12 @@ section:after {
   clear: both;
 }
 
+ /* Clear floats after the columns */
+.raw:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 [class*="col-"] {
   float: left;

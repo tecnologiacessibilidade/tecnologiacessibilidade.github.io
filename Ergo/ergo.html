@@ -2,14 +2,14 @@
 
 <html lang="pt">
 <head>
-    <title>Tecnologias de Acesso ao Computador - Acessibilidade</title>
+    <title>Ergonomia - Tecnologias de Acesso ao Computador</title>
     <meta charset="UTF-8">
 	<meta http-equiv="Content-Type" content="text/html">
 	<meta name="keywords" content="acessibilidade, usabilidade, deficientes, cegos, amblíopes, surdos, necessidades especiais, ajudas técnicas, produtos de apoio, tecnologias de apoio, reabilitação, legendagem, w3c, wai, en 301 549">
 	<meta name="description" content="acessibilidade.net :: Acessibilidade para Todos">
 
-	<link rel="icon" href="Images/accesslogofooter.gif" type="image/x-icon">
-	<link rel="stylesheet" href="CSS/index.css" type="text/css">
+	<link rel="icon" href="../Images/accesslogofooter.gif" type="image/x-icon">
+	<link rel="stylesheet" href="../CSS/index.css" type="text/css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
@@ -25,15 +25,16 @@
 
     <!-- Cabeçalho com o logotipo -->
     <header>
-        <img class="logoAcess" src="Images/icon_logo.png" alt="Ir para Página Inicial">
+        <img class="logoAcess" src="../Images/icon_logo.png" alt="Ir para Página Inicial">
     </header>
 
     <nav>
         <ul class="menutopo">
-            <li class="menutopo nav-active"><a href="index.html">Início</a></li>
-            <li class="menutopo"><a href="/web/">Ergonomia</a></li>
-            <li class="menutopo"><a href="Hardware/hardware.html">Produtos de Hardware</a></li>
-            <li class="menutopo"><a href="Software/software.html">Produtos de Software</a></li>
+            <li class="menutopo"><a href="../index.html">Início</a></li>
+            <li class="menutopo nav-active"><a href="ergo.html">Ergonomia</a></li>
+            <li class="menutopo"><a href="../Hardware/hardware.html">Produtos de Hardware</a></li>
+            <li class="menutopo"><a href="../Software/software.html">Produtos de Software</a></li>
+            <li class="menutopo"><a href="../mapa.html">Mapa do Site</a></li>
             <li class="menutopo"><a id="tema" href="#" onclick="changeColor('#002026');">MODO ESCURO</a></li>
     <!-- Teste -->
         </ul>
@@ -57,8 +58,18 @@
     <section id="content">
 
         <div  class="col-3 menu">  <!-- largura de 25% do ecrã -->
-            <p class="textClass lineH">Graças à <a target="_blank" href="http://www.acessibilidade.net/certic/historia.php">petição pela Acessibilidade da Internet Portuguesa</a>, iniciada em 3 de Dezembro de 1998 por Francisco Godinho e Ricardo Silva, foi possível criar regras para a Internet que garantissem acessibilidade independentemente da situação concreta em que se encontre cada utilizador.
-            </p>
+            <ul class="menulateral">
+                <li class="menulateral"> <a class="active" href="ergo.html">Ergonomia</a></li>
+
+                <ul class="menulateral lineH">
+                    <li class="menulateral"><a href="#workSpace" aria-label="Ir para a secção Espaço no Trabalho nesta página">Espaço de Trabalho</a></li>
+                    <li class="menulateral"><a href="#stuff" aria-label="Ir para a secção Mobiliário nesta página">Mobiliário</a></li>
+                    <li class="menulateral"><a href="#screen" aria-label="Ir para a secção Monitores nesta página">Monitores</a></li>
+                    <li class="menulateral"><a href="#keyboard" aria-label="Ir para a secção Teclados nesta página">Teclados</a></li>
+                    <li class="menulateral"><a href="#software" aria-label="Ir para a secção Software nesta página">Software</a></li>
+                    <li class="menulateral"><a href="#refs" aria-label="Ir para a secção Referências nesta página">Referências</a></li>
+                </ul>
+            </ul>
 
         </div>
 
@@ -67,65 +78,184 @@
             <article class="col-9"> <!-- largura de 75% do ecrã -->
 
                 <br>
-                Início
-                <H1 class="headingsClass">Sobre este Sítio Web</H1>
-                <p class="textClass lineH">Este website, criado a pensar na acessibilidade dos seus utilizadores, tem como objetivo a divulgação de <a href="Ergo/ergo.html">conselhos de Ergonomia</a>, <a href="Hardware/hardware.html">Produtos de Hardware</a> e <a href="Software/software.html">Produtos de Software</a> que contribuem para melhorar a acessibilidade no computador de utilizadores com algum tipo de limitação.</p>
 
+                <p class="textClass"><a href="../index.html">Início</a> / Ergonomia</p>
+
+                <H1 class="headingsClass">Ergonomia</H1>
+                <p class="textClass lineH">É um conjunto de regras e procedimentos que estudam a organização do ambiente de trabalho e as interações entre o homem, as máquinas e equipamentos.  <b>O principal foco da ergonomia é</b> trazer, de maneira eficaz, técnicas adaptativas para <b>facilitar as atividades diárias dos trabalhadores</b>, melhorando a qualidade de vida, <b>procurando prevenir problemas associados a esforço repetitivo</b>. É algo vantajoso tanto para o trabalhador como para a empresa: melhores condições de trabalho estão diretamente associadas a uma melhor prestação por parte do trabalhador.</p>
+
+                <p class="textClass lineH">Algumas diretrizes relacionadas com Ergonomia: <a aria-label="Ir ao site do Diário da República ver o decreto-lei nº 349/93" target="_blank" href="https://dre.pt/pesquisa/-/search/646299/details/maximized">Decreto-Lei nº. 349/93</a> e <a aria-label="Ir ao site do Diário da República ver a Portaria nº 989/93" target="_blank" href="https://dre.pt/pesquisa/-/search/644961/details/maximized">Portaria nº. 989/93</a>.</p>
+
+                <p class="textClass">De modo a facilitar a interpretação das normas, pode consultar o <a target="_blank" href="../Acessibilidade_Mobilidade_Para_Todos.pdf">"Guia Acessibilidade e mobilidade para todos"</a>.</p>
+
+                <br>
                 <br>
                 <br>
 
                 <div style="background-color:DodgerBlue; color:white; padding:10px;">
-                    <h2>Em Destaque: 3 Diretivas europeias de acessibilidade</h2>
+                    <h2>Conselhos de Ergonomia</h2>
                 </div>
+                <br>
 
-                <!--  1ª noticia -->
+                <!--  1ª coluna -->
 
                 <div class="raw">
                     <div class="col-6">
-                        <H3>1 - Lei Europeia da Acessibilidade</H3>
-                        <img src="noticias/EAA_transparent.png" alt="European Accessibility Act">
-                        <br>
-                        <p>
-                        Em 07 de junho de 2019, foi publicada no Jornal Oficial da UE (JOUE) a <a href="https://eur-lex.europa.eu/legal-content/PT/TXT/HTML/?uri=CELEX:32019L0882&from=EN">Diretiva (UE) 2019/882</a> do Parlamento Europeu e do Conselho de 17 de abril de 2019 sobre os requisitos de <strong>acessibilidade a bens e serviços</strong>.
-                        <br><br>
-                        Abrange os seguinte produtos e serviços: Computadores e sistemas operativos; ATMs, bilheteiras e máquinas de check-in; Smartphones; Equipamentos de serviços de televisão digital; Serviços de telefone e equipamentos relacionados; Serviços e equipamentos audiovisuais e de media; Serviços de transporte aéreo, rodoviário, ferroviário e fluvial de passageiros; Serviços bancários; Livros eletrónicos e Comércio eletrónico.
+                        <H3 class="headingsClass" id="workSpace">1 - Espaço de Trabalho</H3>
 
-                        Transposição para os Estados Membros: até 28/06/2022 | Aplicação a partir de junho de 2025
+                        <p class="textClass">O posto de trabalho deve:</p>
+
+                        <ul class="list-prod-func textClass lineH">
+                            <li>Ter uma dimensão que permita mudanças de posição e movimentos de trabalho.</li>
+                            <li>Ter uma iluminação correcta, com contraste adequado entre o ecrã e o ambiente, atendendo às características do trabalho e às necessidades visuais do utilizador.</li>
+                            <li>Ter uma dimensão que permita mudanças de posição e movimentos de trabalho.</li>
+                            <li>Estar instalado de forma que as fontes de luz não provoquem reflexos encandeantes directos, nem reflexos no visor.</li>
+                            <li>Respeitar os limites fixados para os valores de ruído, calor, radiações e humidade.</li>
+                            <li>As janelas devem estar equipadas com um dispositivo ajustável que atenue a luz do dia.</li>
+                        </ul>
 
                     </div>
 
 
-                    <!--  2ª noticia -->
+                    <!--  2ª coluna -->
 
+                    <div class="col-6 prod-center">
+                        <br>
+                        <img id="ergo_01" alt="">
+                    </div>
+                </div>
+
+                <br>
+                <hr>
+
+                <div class="raw">
                     <div class="col-6">
-                        <H3>2 - Acessibilidade Web e de Aplicações Móveis</H3>
-                        <img src="noticias/WebApp_transparent.png" alt="Web e Aplicações Móveis Acessíveis">
+                        <H3 class="headingsClass" id="stuff">2 - Mobiliário</H3>
+
+                        <p class="textClass">O mobiliário no escritório deve:</p>
+
+                        <ul class="list-prod-func textClass lineH">
+                            <li>A mesa ou superfície de trabalho deve ter dimensões adequadas e permitir uma disposição flexível do visor, do teclado, dos documentos e do material acessório e reflectir um mínimo de luminosidade.</li>
+                            <li>O suporte de documentos deve ser estável e regulável, de modo a evitar movimentos desconfortáveis da cabeça e dos olhos.</li>
+                            <li>A cadeira de trabalho deve ter boa estabilidade, ser de altura ajustável e possuir um espaldar regulável em altura e inclinação.</li>
+                        </ul>
+
+                    </div>
+
+
+                    <!--  2ª coluna -->
+
+                    <div class="col-6 prod-center">
                         <br>
-                        <p> Em 2 de Dezembro de 2016, foi publicada no Jornal Oficial da União Europeia a Diretiva (UE)2016/2102 do Parlamento Europeu e do Conselho, de 26 de outubro de 2016, relativa à <a href="http://eur-lex.europa.eu/legal-content/PT/TXT/HTML/?uri=CELEX:32016L2102&from=PT">acessibilidade dos sítios web e das aplicações móveis de organismos do setor público</a>. Abrange desde os serviços administrativos, judiciais e policiais até aos hospitais, universidades e bibliotecas do setor       público. </p>
-                        <p>Esta Diretiva foi transposta para a legislação nacional através do <a href="https://dre.pt/web/guest/pesquisa/-/search/116734769/details/maximized">Decreto-Lei n.º                   83/2018</a>, de 19 de outubro.
-                        </p>
-                        <p>
-                        Os requisitos de acessibilidade aplicáveis a esta diretiva são os constantes do Anexo A da norma europeia <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/02.01.02_60/en_301549v020102p.pdf"> "Requisitos de acessibilidade para a contratação pública de produtos e serviços de tecnologia da informação e comunicação na Europa"</a>, (versão de agosto de 2018 destas <a href="https://eur-lex.europa.eu/legal-content/PT/TXT/HTML/?uri=CELEX:32018D2048&from=EN">normas europeias harmonizadas</a>).
-                        </p>
+                        <img id="ergo_02" alt="">
+                    </div>
+                </div>
+
+                <br>
+                <hr>
+
+                <div class="raw">
+                    <div class="col-6">
+                        <H3 class="headingsClass" id="screen">3 - Monitores</H3>
+
+                        <p class="textClass">Os monitores devem:</p>
+
+                        <ul class="list-prod-func textClass lineH">
+                            <li>Possuir caracteres bem definidos e delineados com clareza, de dimensão apropriada e com espaçamento adequado, quer entre si, quer entre as linhas.</li>
+                            <li>Ter uma imagem estável, sem fenómenos de cintilação ou outras formas de instabilidade e sem reflexos e reverberações.</li>
+                            <li>Possibilitar ao utilizador uma fácil regulação da iluminância e do contraste entre os caracteres e o seu fundo, atendendo, nomeadamente, às condições ambientais.</li>
+                            <li>Ser de orientação e inclinação regulável de modo livre e fácil, adaptando-se às necessidades do utilizador e, se necessário, colocado sobre suporte separado ou mesa regulável.</li>
+                        </ul>
+
+                    </div>
+
+
+                    <!--  2ª coluna -->
+
+                    <div class="col-6 prod-center">
+                        <br>
+                        <img id="ergo_03" alt="">
+                    </div>
+                </div>
+
+                <br>
+                <hr>
+
+                <div class="raw">
+                    <div class="col-6">
+                        <H3 class="headingsClass" id="keyboard">4 - Teclados</H3>
+
+                        <p class="textClass">Os teclados devem:</p>
+
+                        <ul class="list-prod-func textClass lineH">
+                            <li>Ser de inclinação regulável, dissociado do visor e deixar um espaço livre à sua frente de modo a permitir ao utilizador apoiar as mãos e os braços.</li>
+                            <li>Apresentar uma superfície baça, para evitar os reflexos.</li>
+                            <li>Ter as teclas com os símbolos suficientemente contrastados e legíveis a partir da posição normal de trabalho e dispostas de forma a facilitar a sua utilização.</li>
+                        </ul>
+
+                    </div>
+
+
+                    <!--  2ª coluna -->
+
+                    <div class="col-6 prod-center">
+                        <br>
+                        <img id="ergo_04" alt="">
+                    </div>
+                </div>
+
+                <br>
+                <hr>
+
+                <div class="raw">
+                    <div class="col-6">
+                        <H3 class="headingsClass" id="software">5 - Sofware</H3>
+
+                        <p class="textClass">O software deve:</p>
+
+                        <ul class="list-prod-func textClass lineH">
+                            <li>Ser adaptado à tarefa a executar.</li>
+                            <li>Ser de fácil utilização e atender aos conhecimentos do utilizador.</li>
+                            <li>Fornecer aos utilizadores indicações sobre o seu funcionamento.</li>
+                            <li>Apresentar a informação num formato e a um ritmo adaptados aos operadores.</li>
+                            <li>Os princípios de ergonomia devem ser aplicados ao tratamento da informação pelo trabalhador.</li>
+                        </ul>
+
+                    </div>
+
+
+                    <!--  2ª coluna -->
+
+                    <div class="col-6 prod-center">
+                        <br>
+                        <img id="ergo_05" alt="">
+                    </div>
+                </div>
+
+                <br>
+                <hr>
+
+                <br>
+                <div class="raw">
+                    <div>
+                        <H3 class="headingsClass" id="refs">Referências</H3>
+
+                        <p class="textClass">Pode encontrar mais informação relacionada com ergonomia nestes websites:</p>
+
+                        <ul class="list-prod-func textClass lineH">
+                            <li><a target="_blank" href="http://www.acessibilidade.net/software/seg-saude.php">acessibilidade.net</a></li>
+                            <li><a target="_blank" href="https://rsiguard.com/help/ErgoAnswers/index.php">rsiguard</a></li>
+                            <li><a target="_blank" href="https://nucleohealthcare.com.br/2019/05/01/quais-sao-os-tipos-de-ergonomia-confira/?__cf_chl_jschl_tk__=1ed6f3a4f15960ad3ac39e462ce3ecc34b93f982-1621382100-0-AYfNAfr04oejGOtbclEAkCD2COLF2oS01BLI1Fhz6Eyy21Rejcig6txBjH_ekfd__TugkIrJ0dKmLUVj8aoIl43BF2SyFZeLXvCflLffYVWNkbe2A2yeGeyNQl4lO9J-Wn8k01KAOwtK3DE35ikr0QH_5GaPodMC80WGa3SAnVD4mcTA24pJo7RjXlURy5zjA1iYNAfyHGIW36RVdbYORzwuvgJV-YAF0Mt1Xl1ytQkrnUyGOHWrLilIZPpBYkVs2Z45kC9S_ASxWtSCS7LLnS4gL9l9UXqrDu7APFkDRaKOlR8n5HqiK9bvySfi_n_h5xyIu72An1MRkU66oALqYo7fxGFPZDzC1feV0O99iogV7SOtpboSvkTlXfRv8Oq3feFmfgtt26mfLpzrkmqk_uhT5Ta5kCoG3dFJufWxrxEFWTClGOO3JXlDKVcL1mXq2w5hvN8F8BZSAuXP2WQNqsOakjZ9RT5RDVjt1NWRaAz_kFxPjdPFDIUgZ2md4TdyyI0kKQh5qFwHzSkEWA1IyCA">health&care</a></li>
+                            <li><a target="_blank" href="https://rockcontent.com/br/blog/ergonomia-no-home-office/">rockcontent</a></li>
+                            <li><a target="_blank" href="https://beecorp.com.br/blog/ergonomia/">beecorp</a></li>
+                        </ul>
 
                     </div>
                 </div>
-                <hr>
-                <!--  3ª noticia -->
 
-                <div>
-                    <H3>3 - Contratação Pública</H3>
-                    <img src="noticias/EAR_ICT_compraspublicas.png" alt="Acessibilidade nas Compras Públicas">
-                    <br>
-                    <p>
-                    As <a href="http://eur-lex.europa.eu/legal-content/PT/TXT/HTML/?uri=OJ:L:2014:094:FULL&from=PT" target="_blank">Diretivas europeias 2014/23/UE, 2014/24/UE e 2014/25/UE</a>, todas do Parlamento Europeu e do Conselho, de 26 de fevereiro de 2014, introduziram alterações na legislação sobre contratação pública, exigindo que as especificações técnicas de concessões, obras ou serviços abrangidos pelo seu âmbito de aplicação tenham em conta os critérios de acessibilidade para as pessoas com deficiência ou o conceito de "desenho universal".
-                    </p>
-                    <p>
-                    Os requisitos de acessibilidade aplicáveis a esta diretiva são os dos da norma europeia <a href="http://mandate376.standards.eu/standard" target="_blank">EN 301 549 (versão 2015)</a> [<a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/02.01.02_60/en_301549v020102p.pdf">atualizada em 2018</a>]. Esta Diretiva foi transposta para a legislação nacional através do <a href="https://dre.pt/web/guest/pesquisa/-/search/108086621/details/normal?l=1">Decreto-Lei n.º 111-B/2017</a> de 31 de Agosto.
-                    </p>
-                </div>
+                <br>
                 <hr>
-                <p><strong>Última atualização</strong>:27/04/2020</p>
+                <p class="textClass"><strong>Última atualização</strong>: 18/05/2021</p>
             </article>
     </section>
     <br>
@@ -139,16 +269,16 @@
 
         <footer>
             <span class="morada">
-                UTAD - Universidade de Trás-os-Montes e Alto Douro<br>
-                Website realizado no âmbito da UC: Interação Pessoa Computador<br>
-                Contacto: UTAD
+                <b> UTAD</b> - Universidade de Trás-os-Montes e Alto Douro<br>
+                <b> Website realizado no âmbito da UC:</b> Interação Pessoa Computador<br>
+                <b> Contacto:</b> UTAD
             </span>
             <span class="simbolo">
-                <a href="http://www.acessibilidade.net/web/sawdesc.php"><img src="Images/accesslogofooter.gif" width="43" height="43" alt="Simbolo de Acessibilidade na Web"></a>
+                <a href="http://www.acessibilidade.net/web/sawdesc.php"><img src="../Images/accesslogofooter.gif" width="43" height="43" alt="Simbolo de Acessibilidade na Web"></a>
             </span>
 
         </footer>
-        <script src="JS/general.js"></script>
+        <script src="../JS/general.js"></script>
         <!-- end footer -->
 </body>
 </html>
